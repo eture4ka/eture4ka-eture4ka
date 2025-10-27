@@ -14,6 +14,11 @@ body {
   padding: 0 15px;
 }
 
+/* ===== Header ===== */
+.page-header {
+  padding: 20px 0;
+}
+
 /* ===== Logo ===== */
 .logo {
   font-family: "Raleway", sans-serif;
