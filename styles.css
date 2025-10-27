@@ -7,6 +7,13 @@ body {
   padding: 0;
 }
 
+/* ====== Container ====== */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* ====== Logo ====== */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -123,22 +130,22 @@ body {
 /* ====== Features Section ====== */
 .features-section {
   background-color: #f4f4fd;
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .features-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+  gap: 24px;
   padding: 0;
   margin: 0;
 }
 
 .features-item {
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 24px;
+  border-radius: 8px;
 }
 
 .features-heading {
@@ -147,7 +154,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -160,63 +167,63 @@ body {
 /* ====== Team Section ====== */
 .team-section {
   background-color: #f4f4fd;
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .team-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+  gap: 24px;
   padding: 0;
   margin: 0;
 }
 
 .team-item {
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 24px;
+  border-radius: 8px;
   text-align: center;
 }
 
 .team-item img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 16px;
   border-radius: 8px;
 }
 
 /* ====== Portfolio Section ====== */
 .portfolio-section {
   background-color: #f4f4fd;
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 
 .portfolio-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
   padding: 0;
   margin: 0;
 }
 
 .portfolio-item {
   background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 24px;
+  border-radius: 8px;
   text-align: center;
 }
 
 .portfolio-item img {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 16px;
   border-radius: 8px;
 }
 
 /* ====== Studio Highlight ====== */
 .studio-highlight {
   background-color: #2e2f42;
-  padding: 80px 40px;
+  padding: 80px 0;
   text-align: center;
 }
 
@@ -240,9 +247,9 @@ body {
     align-items: center;
   }
 
+  .features-list,
   .team-list,
-  .portfolio-list,
-  .features-list {
+  .portfolio-list {
     grid-template-columns: 1fr;
   }
 }
