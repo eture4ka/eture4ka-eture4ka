@@ -1,4 +1,4 @@
-/* ====== Base ====== */
+/* ===== Base ===== */
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
@@ -7,14 +7,14 @@ body {
   padding: 0;
 }
 
-/* ====== Container ====== */
+/* ===== Container ===== */
 .container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-/* ====== Logo ====== */
+/* ===== Logo ===== */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,7 +30,7 @@ body {
   color: #2e2f42;
 }
 
-/* ====== Navigation ====== */
+/* ===== Navigation ===== */
 .nav-list {
   list-style: none;
   display: flex;
@@ -54,7 +54,7 @@ body {
   color: #404bbf;
 }
 
-/* ====== Contacts ====== */
+/* ===== Contacts ===== */
 .contact-block {
   font-style: normal;
 }
@@ -81,7 +81,7 @@ body {
   color: #404bbf;
 }
 
-/* ====== Hero Section ====== */
+/* ===== Hero Section ===== */
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -116,7 +116,7 @@ body {
   background-color: #404bbf;
 }
 
-/* ====== Section Title ====== */
+/* ===== Section Title ===== */
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -127,7 +127,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* ====== Features Section ====== */
+/* ===== Features Section ===== */
 .features-section {
   background-color: #f4f4fd;
   padding: 60px 0;
@@ -164,7 +164,7 @@ body {
   color: #434455;
 }
 
-/* ====== Team Section ====== */
+/* ===== Team Section ===== */
 .team-section {
   background-color: #f4f4fd;
   padding: 60px 0;
@@ -192,7 +192,23 @@ body {
   border-radius: 8px;
 }
 
-/* ====== Portfolio Section ====== */
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* ===== Portfolio Section ===== */
 .portfolio-section {
   background-color: #f4f4fd;
   padding: 60px 0;
@@ -220,7 +236,7 @@ body {
   border-radius: 8px;
 }
 
-/* ====== Studio Highlight ====== */
+/* ===== Studio Highlight ===== */
 .studio-highlight {
   background-color: #2e2f42;
   padding: 80px 0;
@@ -239,7 +255,7 @@ body {
   margin: 0 auto;
 }
 
-/* ====== Responsive ====== */
+/* ===== Responsive ===== */
 @media (max-width: 768px) {
   .nav-list,
   .contact-list {
