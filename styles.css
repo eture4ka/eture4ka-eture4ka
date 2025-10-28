@@ -184,90 +184,133 @@ ul {
   margin: 0;
 }
 
+/* ====== Перша секція (hero) ====== */
+.hero-section {
+  background-color: #2e2f42; /* фон секції */
+  padding: 188px 0;
+  text-align: center;
+}
+
+/* Заголовок */
+.hero-title {
+  font-size: 56px; /* розмір шрифту */
+  line-height: 1.07; /* простір між рядками */
+  text-align: center; /* вирівнювання */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #ffffff; /* колір тексту */
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+/* Кнопка */
+.hero-button {
+  background-color: #4d5ae5; /* фон кнопки */
+  font-family: "Roboto", sans-serif; /* шрифт */
+  font-weight: 500; /* жирність */
+  font-size: 16px; /* розмір шрифту */
+  line-height: 1.5; /* міжрядковий інтервал */
+  letter-spacing: 0.04em; /* відстань між літерами */
+  color: #ffffff; /* колір тексту */
+  cursor: pointer; /* курсор у вигляді руки */
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+/* Ховер і фокус */
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf; /* зміна кольору при наведенні або фокусі */
+}
 
 
-/* ===== Features ===== */
+/* ====== Друга секція (Features) ====== */
 .features-section {
   padding: 120px 0;
 }
 
+/* Список */
 .features-list {
   display: flex;
   gap: 24px;
 }
 
+/* Елементи списку */
 .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
-.features-heading {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+/* Заголовки */
+.feature-title {
+  font-weight: 500; /* жирність */
+  font-size: 20px; /* розмір шрифту */
+  line-height: 1.2; /* міжрядковий інтервал */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #2e2f42; /* колір тексту */
   margin-bottom: 8px;
 }
 
-.features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+/* Параграфи */
+.feature-text {
+  font-size: 16px; /* розмір тексту */
+  line-height: 1.5; /* міжрядковий інтервал */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #434455; /* колір тексту */
 }
 
-/* ===== Team ===== */
-/* === СЕКЦІЯ === */
-.info-section-light {
-  background-color: #F4F4FD; /* фон секції */
-  padding: 60px 20px;
+
+/* ====== Третя секція (Team Section) ====== */
+.team-section {
+  background-color: #f4f4fd; /* фон секції */
+  padding: 120px 0;
 }
 
-/* Заголовок секції (можна перевикористати клас заголовка з 2-ї секції) */
-.section-title-alt {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 50px;
+/* Заголовок секції */
+.section-title {
+  font-size: 36px; /* розмір тексту */
+  line-height: 1.11; /* простір між рядками */
+  text-align: center; /* вирівнювання по центру */
+  letter-spacing: 0.02em; /* відступи між літерами */
+  text-transform: capitalize; /* перша літера велика */
+  color: #2e2f42; /* колір тексту */
+  margin-bottom: 72px;
 }
 
 /* Список */
-.service-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 40px; /* відстань між пунктами */
+.team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
-/* Пункт списку */
-.service-item {
-  background-color: #FFFFFF; /* фон пункту */
-  padding: 20px;
-  border-radius: 8px;
+/* Елементи списку */
+.team-item {
+  background-color: #ffffff; /* фон елемента */
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
-/* Заголовки пунктів (перевикористовуємо клас з попередньої секції) */
+/* Заголовок члена команди */
 .feature-title {
-  font-weight: 500;    
-  font-size: 20px;     
-  line-height: 1.2;    
-  letter-spacing: 0.02em; 
-  color: #2e2f42;      
-  margin-bottom: 10px;
+  font-weight: 500; /* жирність */
+  font-size: 20px; /* розмір шрифту */
+  line-height: 1.2; /* простір між рядками */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #2e2f42; /* колір тексту */
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
-/* Параграфи пунктів (перевикористовуємо клас з попередньої секції) */
+/* Параграф з професією */
 .feature-text {
-  font-size: 16px;      
-  line-height: 1.5;     
-  letter-spacing: 0.02em; 
-  color: #434455;       
-  margin: 0;
+  font-size: 16px; /* розмір тексту */
+  line-height: 1.5; /* простір між рядками */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #434455; /* колір тексту */
+  margin-bottom: 32px;
 }
+
 
 
 /* ====== Секція портфоліо ====== */
