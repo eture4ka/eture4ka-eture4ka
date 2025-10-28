@@ -47,107 +47,143 @@ ul {
   justify-content: space-between;
 }
 
-/* ===== ЛОГОТИП ===== */
+/* === ЛОГОТИП === */
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  font-family: "Raleway", sans-serif; /* шрифт логотипу */
+  font-weight: 700;                   /* жирність */
+  font-size: 18px;                    /* розмір */
+  line-height: 1.17;                  /* простір між рядками */
+  letter-spacing: 0.03em;             /* відступ між літерами */
+  text-transform: uppercase;          /* великі літери */
+  color: #4d5ae5;                     /* колір */
+  text-decoration: none;              /* без підкреслення */
 }
 
-.logo-accent {
-  color: #2e2f42;
+/* лише один span у логотипі */
+.logo-span {
+  color: #2e2f42; /* колір для span */
 }
 
-/* ===== НАВІГАЦІЯ ===== */
+/* === НАВІГАЦІЙНІ ПОСИЛАННЯ === */
 .nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
+  font-weight: 500;         /* жирність */
+  font-size: 16px;          /* розмір */
+  line-height: 1.5;         /* простір між рядками */
+  letter-spacing: 0.02em;   /* відстань між літерами */
+  color: #2e2f42;           /* основний колір */
+  text-decoration: none;    /* без підкреслення */
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* колір при hover і focus */
 }
 
-/* ===== КОНТАКТИ ===== */
-.contact-block {
-  font-style: normal; /* прибирає курсив */
+/* === CONTACTS (ADDRESS) === */
+.contact-address {
+  font-style: normal; /* прибираємо курсив */
 }
 
 .contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
+  font-size: 16px;          /* розмір тексту */
+  line-height: 1.5;         /* простір між рядками */
+  letter-spacing: 0.02em;   /* відстань між літерами */
+  color: #434455;           /* колір тексту */
+  text-decoration: none;    /* без підкреслення */
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* зміна кольору при hover/focus */
+}
+/* === СЕКЦІЯ === */
+.main-section {
+  background-color: #2e2f42; /* фон секції */
+  padding: 80px 20px;         /* відступи для краси */
+  text-align: center;         /* вирівнювання контенту */
 }
 
-/* ===== HERO SECTION ===== */
-.hero-section {
-  background-color: #2e2f42;
-  padding: 188px 0; /* необов’язково, для красивого відступу */
-  text-align: center; /* центрування контенту */
-}
-.feature-title {
-  font-weight: 500;        /* жирність шрифту */
-  font-size: 20px;         /* розмір шрифту */
-  line-height: 1.2;        /* міжрядковий інтервал */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #2e2f42;          /* колір тексту */
+/* === ЗАГОЛОВОК === */
+.section-title {
+  font-size: 56px;      /* розмір шрифту */
+  line-height: 1.07;    /* простір між рядками */
+  text-align: center;   /* вирівнювання тексту */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #ffffff;       /* колір тексту */
+  margin-bottom: 40px;  /* відступ до кнопки */
 }
 
-.feature-text {
-  font-size: 16px;         /* розмір тексту */
-  line-height: 1.5;        /* міжрядковий інтервал */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #434455;          /* колір тексту */
+/* === КНОПКА === */
+.cta-button {
+  background-color: #4D5AE5;        /* колір фону */
+  font-family: "Roboto", sans-serif; /* шрифт */
+  font-weight: 500;                  /* жирність */
+  font-size: 16px;                   /* розмір шрифту */
+  line-height: 1.5;                  /* простір між рядками */
+  letter-spacing: 0.04em;            /* відстань між літерами */
+  color: #ffffff;                     /* колір тексту */
+  border: none;                       /* без обводки */
+  padding: 12px 32px;                 /* внутрішні відступи */
+  border-radius: 4px;                 /* округлення кутів */
+  cursor: pointer;                     /* курсор pointer */
+  transition: background-color 0.3s;  /* плавна анімація */
 }
 
-/* ===== HERO TITLE ===== */
-.hero-title {
+/* Зміна кольору при hover/focus */
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #404BBF;
+  outline: none; /* прибираємо обводку браузера */
+}
+/* === СЕКЦІЯ === */
+.info-section {
+  background-color: #2e2f42; /* фон секції */
+  padding: 60px 20px;
+}
+
+/* Заголовок секції */
+.section-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  max-width: 496px; /* щоб текст гарно переносився */
-  margin: 0 auto 48px;
+  margin-bottom: 50px;
 }
 
-/* ===== HERO BUTTON ===== */
-.hero-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-
-  /* необов’язкові декоративні стилі */
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
+/* Список */
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 40px; /* відстань між пунктами */
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
+/* Пункт списку */
+.feature-item {
+  text-align: left;
 }
+
+/* Заголовки пунктів (один клас для всіх) */
+.feature-title {
+  font-weight: 500;     /* жирність */
+  font-size: 20px;      /* розмір шрифту */
+  line-height: 1.2;     /* простір між рядками */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #2e2f42;       /* колір тексту */
+  margin-bottom: 10px;
+}
+
+/* Параграфи пунктів (один клас для всіх) */
+.feature-text {
+  font-size: 16px;       /* розмір тексту */
+  line-height: 1.5;      /* простір між рядками */
+  letter-spacing: 0.02em; /* відстань між літерами */
+  color: #434455;        /* колір тексту */
+  margin: 0;
+}
+
 
 
 /* ===== Features ===== */
@@ -181,85 +217,121 @@ ul {
 }
 
 /* ===== Team ===== */
-/* Секція */
-.team-section {
+/* === СЕКЦІЯ === */
+.info-section-light {
   background-color: #F4F4FD; /* фон секції */
+  padding: 60px 20px;
 }
 
-/* Заголовок секції (можна перевикористати з попередньої секції) */
-.section-title {
-  font-size: 36px;         /* розмір шрифту */
-  line-height: 1.11;       /* міжрядковий інтервал */
-  text-align: center;      /* вирівнювання по центру */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  text-transform: capitalize; /* перша літера велика */
-  color: #2e2f42;          /* колір тексту */
+/* Заголовок секції (можна перевикористати клас заголовка з 2-ї секції) */
+.section-title-alt {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 50px;
 }
 
-/* Пункти списку */
-.team-item {
-  background-color: #FFFFFF; /* фон кожного елемента списку */
-}
-
-/* Заголовки пунктів списку (перевикористано з 2-ї секції) */
-.feature-title {
-  font-weight: 500;        /* жирність шрифту */
-  font-size: 20px;         /* розмір шрифту */
-  line-height: 1.2;        /* міжрядковий інтервал */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #2e2f42;          /* колір тексту */
-}
-
-/* Тексти пунктів списку (перевикористано з 2-ї секції) */
-.feature-text {
-  font-size: 16px;         /* розмір тексту */
-  line-height: 1.5;        /* міжрядковий інтервал */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #434455;          /* колір тексту */
-}
-
-/* === Секція Portfolio === */
-.portfolio-section {
-  /* Клас має мінімум 3 символи, лише малі латинські, допускає дефіс */
-  /* Стилі для заголовка секції такі ж, як у 3-й секції */
-}
-
-.section-title {
-  font-size: 36px;         /* розмір тексту */
-  line-height: 1.11;       /* простір між рядками */
-  text-align: center;      /* вирівнювання */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  text-transform: capitalize; /* стиль написання */
-  color: #2e2f42;          /* колір тексту */
-}
-
-/* === Елементи списку === */
-.portfolio-list {
+/* Список */
+.service-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  gap: 40px; /* відстань між пунктами */
 }
 
-.portfolio-item {
-  /* клас відповідає вимогам — латиниця, малі літери */
+/* Пункт списку */
+.service-item {
+  background-color: #FFFFFF; /* фон пункту */
+  padding: 20px;
+  border-radius: 8px;
 }
 
-/* === Заголовки проєктів (перевикористано з попередніх секцій) === */
+/* Заголовки пунктів (перевикористовуємо клас з попередньої секції) */
 .feature-title {
-  font-weight: 500;        /* жирність */
-  font-size: 20px;         /* розмір шрифту */
-  line-height: 1.2;        /* простір між рядками */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #2e2f42;          /* колір тексту */
+  font-weight: 500;    
+  font-size: 20px;     
+  line-height: 1.2;    
+  letter-spacing: 0.02em; 
+  color: #2e2f42;      
+  margin-bottom: 10px;
 }
 
-/* === Опис проєктів (перевикористано з попередніх секцій) === */
+/* Параграфи пунктів (перевикористовуємо клас з попередньої секції) */
 .feature-text {
-  font-size: 16px;         /* розмір шрифту */
-  line-height: 1.5;        /* міжрядковий інтервал */
-  letter-spacing: 0.02em;  /* відстань між літерами */
-  color: #434455;          /* колір тексту */
+  font-size: 16px;      
+  line-height: 1.5;     
+  letter-spacing: 0.02em; 
+  color: #434455;       
+  margin: 0;
 }
+
+
+/* ====== Секція портфоліо ====== */
+.portfolio-section {
+  background-color: #ffffff; /* фон за замовчуванням (не вимагався, але логічний) */
+  padding: 60px 20px;
+}
+
+/* Заголовок секції (перевикористаний клас з 3-ї секції) */
+.section-title-alt {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 50px;
+}
+
+/* ====== Список проєктів ====== */
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+/* Пункт списку */
+.project-item {
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: left;
+}
+
+/* Картинка */
+.project-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Заголовок (перевикористаний з попередніх секцій) */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 16px;
+}
+
+/* Параграф (перевикористаний з попередніх секцій) */
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0 16px 16px 16px;
+}
+
 
 
 /* ===== Footer ===== */
