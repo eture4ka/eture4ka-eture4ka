@@ -16,7 +16,6 @@ ul {
   list-style: none;
 }
 
-/* ===== Utility ===== */
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -59,12 +58,12 @@ ul {
 }
 
 .nav-list {
-  display: flex;
+  display: none; /* приховано на мобільному */
   gap: 40px;
 }
 
 .contact-list {
-  display: flex;
+  display: none; /* приховано на мобільному */
   gap: 40px;
 }
 
@@ -157,7 +156,6 @@ ul {
   background-color: #404bbf;
 }
 
-
 /* ===== Features Section ===== */
 .features-section {
   padding: 120px 0; 
@@ -165,11 +163,12 @@ ul {
 
 .features-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
 .features-item {
-  flex-basis: calc((100% - 3 * 24px) / 4); 
+  flex-basis: calc((100% - 72px) / 4); 
 }
 
 .feature-title {
@@ -206,12 +205,13 @@ ul {
 
 .team-list {
   display: flex; 
+  flex-wrap: wrap;
   gap: 24px; 
 }
 
 .team-item {
   background-color: #ffffff;
-  border-radius: 0 0 4px 4px; /
+  border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4); 
   overflow: hidden;
 }
@@ -288,7 +288,6 @@ ul {
   color: #434455;
 }
 
-
 /* ===== Footer ===== */
 .page-footer {
   background-color: #2e2f42;
@@ -305,4 +304,65 @@ ul {
   color: #f4f4fd;
   max-width: 264px;
   margin-top: 16px;
+}
+
+/* ===== Mobile Menu ===== */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  z-index: 1000;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+
+.menu-toggle,
+.menu-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ===== Responsive ===== */
+@media (min-width: 768px) {
+  .nav-list {
+    display: flex;
+  }
+  .contact-list {
+    display: flex;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .portfolio-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+@media (min-width: 1158px) {
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
+
+/* Retina background example */
+.hero-section {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
