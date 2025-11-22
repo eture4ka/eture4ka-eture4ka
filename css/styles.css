@@ -71,8 +71,8 @@
   transition: background-color 250ms ease;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-buttos:hover,
+.hero-buttos:focus {
   background-color: #404BBF;
 }
 
