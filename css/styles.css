@@ -60,8 +60,8 @@
   margin-bottom: 40px;
 }
 
-.hero-button {
-  background-color: #4D5AE5;
+..hero-button {
+  background-color: #4D5AE5; /* базовий фон */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -75,9 +75,12 @@
   transition: background-color 250ms ease;
 }
 
-.hero-button:hover,
+.hero-button:hover {
+  background-color: #404BBF; /* фон при наведенні */
+}
+
 .hero-button:focus {
-   color: #404BBF;
+  background-color: #404BBF; /* фон при фокусі */
 }
 
 .feature-heading {
