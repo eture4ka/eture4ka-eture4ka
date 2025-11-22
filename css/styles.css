@@ -71,7 +71,8 @@
   transition: background-color 250ms ease;
 }
 
-.hero-buttom {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404BBF;
   color: #ffffff; /* Додано стиль для зміни кольору шрифту при наведенні мишкою */
 }
