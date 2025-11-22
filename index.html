@@ -3,8 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    
     <title>webstudio</title>
- </head>
+  </head>
  
 <body>  
  <header>
@@ -24,57 +36,94 @@
   </address>
 </header>
 <main>
-  <section>
-    <h1>Effective Solutions for Your Business</h1>
-    <button type="button">Order Service</button>
-  </section>
-  <section>
-  <h2>Our Features</h2>
-  <ul>
+  <section class="hero-section">
+  <h1 class="hero-title">Effective Solutions for Your Business</h1>
+  <button type="button" class="hero-button">Order Service</button>
+</section>
+  <section class="features-section">
+  <h2 class="features-title">Our Features</h2>
+  <ul class="features-list">
     <li>
-      <h3>Strategy</h3>
-      <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+      <h3 class="feature-heading">Strategy</h3>
+      <p class="feature-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
     </li>
     <li>
-      <h3>Punctuality</h3>
-      <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+      <h3 class="feature-heading">Punctuality</h3>
+      <p class="feature-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
     </li>
     <li>
-      <h3>Diligence</h3>
-      <p>Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+      <h3 class="feature-heading">Diligence</h3>
+      <p class="feature-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
     </li>
     <li>
-      <h3>Technologies</h3>
-      <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+      <h3 class="feature-heading">Technologies</h3>
+      <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
     </li>
   </ul>
 </section>
 
-<section>
-  <h2>Our Team</h2>
-  <ul>
-    <li>
+<section class="team-section">
+  <h2 class="section-title">Our Team</h2>
+  <ul class="team-list">
+    <li class="team-card">
       <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264">
-      <h3>Mark Guerrero</h3>
-      <p>Product Designer</p>
+      <h3 class="card-title">Mark Guerrero</h3>
+      <p class="card-text">Product Designer</p>
     </li>
-    <li>
+    <li class="team-card">
       <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264">
-      <h3>Tom Ford</h3>
-      <p>Frontend Developer</p>
+      <h3 class="card-title">Tom Ford</h3>
+      <p class="card-text">Frontend Developer</p>
     </li>
-    <li>
+    <li class="team-card">
       <img src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264">
-      <h3>Camila Garcia</h3>
-      <p>Marketing</p>
+      <h3 class="card-title">Camila Garcia</h3>
+      <p class="card-text">Marketing</p>
     </li>
-    <li>
+    <li class="team-card">
       <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264">
-      <h3>Daniel Wilson</h3>
-      <p>UI Designer</p>
+      <h3 class="card-title">Daniel Wilson</h3>
+      <p class="card-text">UI Designer</p>
     </li>
   </ul>
 </section>
+
+<section class="portfolio-section">
+  <h2 class="section-title">Our Portfolio</h2>
+  <ul class="portfolio-list">
+    <li class="portfolio-card">
+      <img src="./images/banking-app.jpeg" alt="Banking App project preview" width="360">
+      <h3 class="card-title">Banking App</h3>
+      <p class="card-text">App</p>
+    </li>
+    <li class="portfolio-card">
+      <img src="./images/cashless-payment.jpeg" alt="Cashless Payment project preview" width="360">
+      <h3 class="card-title">Cashless Payment</h3>
+      <p class="card-text">Marketing</p>
+    </li>
+    <li class="portfolio-card">
+      <img src="./images/meditation-app.jpeg" alt="Meditation App project preview" width="360">
+      <h3 class="card-title">Meditation App</h3>
+      <p class="card-text">App</p>
+    </li>
+    <li class="portfolio-card">
+      <img src="./images/taxi-service.jpeg" alt="Taxi Service project preview" width="360">
+      <h3 class="card-title">Taxi Service</h3>
+      <p class="card-text">Marketing</p>
+    </li>
+    <li class="portfolio-card">
+      <img src="./images/screen-illustrations.jpeg" alt="Screen Illustrations project preview" width="360">
+      <h3 class="card-title">Screen Illustrations</h3>
+      <p class="card-text">Design</p>
+    </li>
+    <li class="portfolio-card">
+      <img src="./images/online-courses.jpeg" alt="Online Courses project preview" width="360">
+      <h3 class="card-title">Online Courses</h3>
+      <p class="card-text">Marketing</p>
+    </li>
+  </ul>
+</section>
+
 </main>
 
  <footer>
