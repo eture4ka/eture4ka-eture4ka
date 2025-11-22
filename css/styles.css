@@ -71,9 +71,9 @@
   transition: background-color 250ms ease;
 }
 
-.hero-buttos:hover,
-.hero-buttos:focus {
-  background-color: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+  color: #404BBF; /* змінюється колір тексту */
 }
 
 .feature-heading {
