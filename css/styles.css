@@ -71,6 +71,11 @@
   transition: background-color 250ms ease;
 }
 
+.hero-buttom {
+  background-color: #404BBF;
+  color: #ffffff; /* Додано стиль для зміни кольору шрифту при наведенні мишкою */
+}
+
 .feature-heading {
   font-weight: 500;
   font-size: 20px;
