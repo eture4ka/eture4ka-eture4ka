@@ -71,16 +71,6 @@
   transition: background-color 250ms ease;
 }
 
-.hero-button:hover {
-  background-color: #404BBF;
-  color: #ffffff; /* Додано стиль для зміни кольору шрифту при наведенні мишкою */
-}
-
-.hero-button:focus {
-  background-color: #404BBF;
-  color: #ffffff; /* Додано стиль для зміни кольору шрифту при фокусі */
-}
-
 .feature-heading {
   font-weight: 500;
   font-size: 20px;
