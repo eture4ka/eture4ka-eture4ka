@@ -707,13 +707,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
   align-items: center;
   position: relative;
   padding-left: 24px;
 }
 
 .modal-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   position: absolute;
   top: 0;
   left: 0;
@@ -737,11 +738,6 @@ img {
 
 .modal-checkbox-icon {
   fill: inherit;
-}
-
-.modal-privacy-link {
-  color: #4d5ae5;
-  text-decoration: underline;
 }
 
 .modal-submit-button {
