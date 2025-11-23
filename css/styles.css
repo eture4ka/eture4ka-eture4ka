@@ -711,7 +711,7 @@ img {
 }
 
 .modal-custom-checkbox {
-  display: inline-flex;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
