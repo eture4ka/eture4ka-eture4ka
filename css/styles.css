@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 :root {
   --footer-text-color: #f4f4fd;
 }
