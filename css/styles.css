@@ -11,6 +11,8 @@ img {
 
 :root {
   --footer-text-color: #f4f4fd;
+  --primary-brand-color: #4d5ae5;
+  --icon-fill-color: #f4f4fd;
 }
 
 /* Container */
@@ -301,7 +303,7 @@ img {
 .social-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -315,7 +317,7 @@ img {
 }
 
 .social-icon {
-  fill: #f4f4fd;
+  fill: var(--icon-fill-color);
 }
 
 /* Portfolio Section */
