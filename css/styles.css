@@ -73,6 +73,7 @@
   border: none;
   border-radius: 4px;
   transition: background-color 250ms ease;
+  background-color: #404BBF;
 }
 
 .hero-button:hover {
