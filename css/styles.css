@@ -707,13 +707,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 
 .modal-custom-checkbox {
   display: inline-flex;
   position: absolute;
+  top: 0;
+  left: 0;
   width: 16px;
   height: 16px;
   align-items: center;
