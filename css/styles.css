@@ -732,6 +732,10 @@ img {
   fill: #f4f4fd;
 }
 
+.modal-checkbox-icon {
+  fill: inherit;
+}
+
 .modal-privacy-link {
   color: #4d5ae5;
   text-decoration: underline;
