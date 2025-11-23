@@ -1,3 +1,10 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  margin: 0; /* щоб не було відступів браузера */
+}
+
 :root {
   --footer-text-color: #f4f4fd;
 }
