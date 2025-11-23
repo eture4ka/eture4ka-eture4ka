@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0; /* щоб не було відступів браузера */
+  margin: 0;
 }
 
 :root {
@@ -55,7 +55,6 @@ body {
 
 .hero-section {
   background-color: #2e2f42;
-  padding: 120px 0;
 }
 
 .hero-title {
@@ -64,7 +63,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 40px;
 }
 
 .hero-button {
@@ -76,9 +74,6 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -92,7 +87,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -105,7 +99,6 @@ body {
 
 .team-section {
   background-color: #F4F4FD;
-  padding: 120px 0;
 }
 
 .section-title {
@@ -115,24 +108,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .team-list {
   list-style: none;
-  display: flex;
-  gap: 24px;
   justify-content: center;
-  padding: 0;
   margin: 0;
 }
 
 .team-card {
   background-color: #FFFFFF;
-  padding: 0 0 32px;
   text-align: center;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .card-title {
@@ -141,7 +127,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 16px 0 8px;
+  margin: 0;
 }
 
 .card-text {
@@ -152,16 +138,9 @@ body {
   margin: 0;
 }
 
-.portfolio-section {
-  padding: 120px 0;
-}
-
 .portfolio-list {
   list-style: none;
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 48px 24px;
-  padding: 0;
   margin: 0;
 }
 
@@ -172,13 +151,7 @@ body {
 
 .page-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
   text-align: center;
-}
-
-.page-footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-accenr {
