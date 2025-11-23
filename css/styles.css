@@ -41,6 +41,8 @@ img {
 .nav-menu {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -79,6 +81,8 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-link {
@@ -150,6 +154,8 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .features-item {
