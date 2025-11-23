@@ -584,6 +584,7 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
@@ -712,7 +713,7 @@ img {
 }
 
 .modal-custom-checkbox {
-  display: inline-flex;
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
