@@ -739,6 +739,11 @@ img {
   fill: inherit;
 }
 
+.modal-privacy-link {
+  color: var(--primary-brand-color);
+  text-decoration: underline;
+}
+
 .modal-submit-button {
   display: block;
   min-width: 169px;
