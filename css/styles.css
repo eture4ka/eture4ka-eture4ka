@@ -271,6 +271,14 @@ img {
   padding: 32px 0;
 }
 
+.team-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
 .card-title {
   font-weight: 500;
   font-size: 20px;
