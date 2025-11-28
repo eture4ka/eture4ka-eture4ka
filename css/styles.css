@@ -60,15 +60,8 @@ img {
   margin-right: 76px;
 }
 
-.nav-menu {
-  display: flex;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .nav-link {
+  position: relative;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -90,7 +83,7 @@ img {
 }
 
 .nav-link.current::after {
-  content: "";
+  content: '';
   width: 100%;
   position: absolute;
   left: 0;
