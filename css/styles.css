@@ -727,8 +727,6 @@ img {
 
 .modal-custom-checkbox {
   display: inline-flex;
-  top: 0;
-  left: 0;
   width: 16px;
   height: 16px;
   align-items: center;
